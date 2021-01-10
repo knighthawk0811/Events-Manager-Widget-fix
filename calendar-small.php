@@ -27,7 +27,8 @@
 
 /*************************creating a couple new variables with the proper month/year *****************************/
 //fixing the month name without modifying any outside values
-//quick array of names
+//quick array of names (the first is left blank intentionally)
+//CHANGE the month names to your preferred language
 $month_name = ['','January','February','March','April','May','June','July','August','September','October','November','December'];
 //get this months name first
 $the_month = date('n');
