@@ -60,9 +60,9 @@ $EM_DateTime = new EM_DateTime($calendar['month_start']);
 
 			<td><a class="em-calnav em-calnav-prev" href="<?php echo esc_url($calendar['links']['previous_url']); ?>" rel="nofollow">&lt;&lt;</a></td>
 
-/**************************** edit the line below to output the new values we created earlier ***************************************/
+<?php /**************************** edit the line below to output the new values we created earlier ***************************************/ ?>
 			<td class="month_name" colspan="5"><?php echo( $month_output . ' ' . $year_output); ?></td>
-/**************************** no further edits needed *******************************************************************************/
+<?php /**************************** no further edits needed *******************************************************************************/ ?>
 
 			<td><a class="em-calnav em-calnav-next" href="<?php echo esc_url($calendar['links']['next_url']); ?>" rel="nofollow">&gt;&gt;</a></td>
 
